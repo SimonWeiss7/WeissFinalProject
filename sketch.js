@@ -19,9 +19,13 @@ var walkerSize = 25;
 var walkerLifespan = 50;
 
 function setup() {
-  createCanvas(600, 600);
+  //use the current window size as the canvas size
+  createCanvas(windowWidth, windowHeight);
   background(0);
   noStroke();
+}
+function windowResized() {
+  resizeCanvas(windowWidth,Windowheight);
 }
 
 function draw() {
