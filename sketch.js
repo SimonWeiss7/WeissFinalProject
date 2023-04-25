@@ -1,3 +1,4 @@
+// This Code utilizes walkers and arrays as well as If and For statements to draw on the canvas using random pixelated colors with mouse input 
 //an array of hex colors
 var palette = ['#33F0FF',
                '#5E33FF',
@@ -14,9 +15,9 @@ var palette = ['#33F0FF',
 var randomWalkers = [];
 
 //global variables for our random walker
-var maxDistance = 15;
-var walkerSize = 25;
-var walkerLifespan = 50;
+var maxDistance = 25;
+var walkerSize = 35;
+var walkerLifespan = 45;
 
 function setup() {
   //use the current window size as the canvas size
